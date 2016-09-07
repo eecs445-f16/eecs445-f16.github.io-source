@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:eecs445-f16/eecs445-f16.github.io.git
