@@ -8,19 +8,25 @@ LOAD_CONTENT_CACHE = False;
 
 # Site Information
 AUTHOR = 'EECS 445 Course Staff';
-SITENAME = 'eecs445-f16';
+SITENAME = 'EECS 445:  Introduction to Machine Learning';
 SITEURL = '';
 TIMEZONE = 'America/Detroit';
 DEFAULT_LANG = 'en';
 
 # Basic Settings
 PATH = 'content'
+THEME = "./theme";
 
 # Custom Settings (custom variables defined by me, for use by templates)
 SITE_LAST_MODIFIED = SITE_LAST_MODIFIED = datetime.datetime.now();
 
 ## Pages, Paths, and URLs ------------------------------------------------------
 
+# Static Paths:  Simple static pages, with custom URLs
+STATIC_PATHS = ['images', 'static'];
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'}
+}
 
 ## Content Generation ----------------------------------------------------------
 
