@@ -22,6 +22,10 @@ SITE_LAST_MODIFIED = SITE_LAST_MODIFIED = datetime.datetime.now();
 
 ## Pages, Paths, and URLs ------------------------------------------------------
 
+# Page URLs
+PAGE_URL = "{slug}";
+PAGE_SAVE_AS = "{slug}.html";
+
 # Static Paths:  Simple static pages, with custom URLs
 STATIC_PATHS = ['images', 'static'];
 EXTRA_PATH_METADATA = {
