@@ -1,0 +1,17 @@
+{% extends "structure/base.html" %}
+
+<!-- CONTENT ------------------------------------------------------------------>
+{% block content %}
+
+{% for lecture in articles[::-1] %}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h1 class="panel-title"><b>{{lecture.title}}</b>, {{lecture.date}}</h1>
+    </div>
+    <div class="panel-body">
+        {{lecture.content}}
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}

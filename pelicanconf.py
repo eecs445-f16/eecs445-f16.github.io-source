@@ -12,6 +12,7 @@ SITENAME = 'EECS 445:  Introduction to Machine Learning';
 SITEURL = '';
 TIMEZONE = 'America/Detroit';
 DEFAULT_LANG = 'en';
+DEFAULT_DATE_FORMAT = "%a, %d %b %Y";
 
 # Basic Settings
 PATH = 'content'
