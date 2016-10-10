@@ -8,7 +8,7 @@ Learning Objectives:
 * Naive Bayes Classifiers
     * Understand the conditional independence assumption and implications
     * Know how to write down the likelihood function
-    * Be able to compute MLE/MAP estimates by hand
+    * Be able to compute MLE/MAP/Mean estimates by hand
     * Understand Laplace smoothing and the problem it solves
 * Compare Logistic Regression and Naive Bayes
 

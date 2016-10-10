@@ -3,11 +3,9 @@ Date: Monday, October 3, 2016
 
 Learning Objectives:
 
-* Find a linear classifier
-* Maximize the margin
-* Get an optimization problem with constraints
-* Variables have some semantics
-* No corresponding probabilistic model
+* Probabilistic vs deterministic ML model 
+* Understand the concept of a linear classifier and max-margin classifier
+* The semantics of variables (w,b)
 
 Helpful Resources:
 
